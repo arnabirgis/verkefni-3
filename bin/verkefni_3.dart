@@ -29,7 +29,7 @@ void main() {
 
     if (choice == '1') {
       stdout.write("Enter the item you want to add: ");
-      var item = stdin.readLineSync() ?? ""; // Handle nullable input
+      var item = stdin.readLineSync() ?? ""; 
       addItemToList(item);
     } else if (choice == '2') {
       viewList();
